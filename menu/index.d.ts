@@ -1,8 +1,5 @@
-/**
- * @license
- * Copyright Google Inc. All Rights Reserved.
- *
- * Use of this source code is governed by an MIT-style license that can be
- * found in the LICENSE file at https://angular.io/license
- */
-export * from './typings/index';
+export * from './menu';
+export { MdMenuTrigger } from './menu-trigger';
+export { fadeInItems, transformMenu } from './menu-animations';
+export { MdMenu } from './menu-directive';
+export { MdMenuItem } from './menu-item';
